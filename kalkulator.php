@@ -47,11 +47,11 @@ error_reporting(E_ALL);
         <form action="" method="post" id="calculator">
             <div class="form-group">
 				<label for="fname">Upiši prvi broj *</label>
-                <input type="number" name="first_num" id="first_num" required="required" value="'. $first_num . '"> <b>Prvi broj</b>
+                <input type="number" name="first_num" id="first_num" required="required" value="'. $first_num . '">
             </div>
             <div class="form-group">
                 <label for="fname">Upiši drugi broj *</label>
-                <input type="number" name="second_num" id="second_num" required="required" value="'. $second_num . '"> <b>Drugi broj</b>
+                <input type="number" name="second_num" id="second_num" required="required" value="'. $second_num . '">
             </div>
             <div class="form-group">
                     Rezultat: ' . $result . '
