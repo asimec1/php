@@ -46,7 +46,7 @@ error_reporting(E_ALL);
         <h1 style="margin-bottom:10px;font-size:14px;">Kalkulator (Switch naredba)</h1>
         <form action="" method="post" id="calculator">
             <div class="form-group">
-				<label for="fname">Upiši prvi broj *</label>
+		<label for="fname">Upiši prvi broj *</label>
                 <input type="number" name="first_num" id="first_num" required="required" value="'. $first_num . '">
             </div>
             <div class="form-group">
