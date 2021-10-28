@@ -28,7 +28,7 @@ error_reporting(E_ALL);
 		<h1 style="margin-bottom:10px;font-size:14px;">Igra (pogodi broj)</h1>
 		<form action="" method="post" id="calculator">
 		    <div class="form-group">
-					<label for="fname">Upiši jedan broj od 1 do 9*</label>
+			<label for="num">Upiši jedan broj od 1 do 9*</label>
 			<input type="number" name="num" id="num" required="required" value="'. $num . '" autofocus>
 		    </div>
 
